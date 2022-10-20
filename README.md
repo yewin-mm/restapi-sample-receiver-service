@@ -55,7 +55,7 @@
 This is the rest API receiver project for creating many types of API endpoints. <br>
 This is demo project and so, I don't add any other logic like communication with db, etc.
 So, you will see hard coded values in service class. <br>
-You can also learn calling that many types of API endpoints from other services in here [RestAPI Sample Caller Service](https://github.com/yewin-mm/restapi-sample-caller-service/tree/master)
+You can also learn calling that many types of API endpoints from other services in here [RestAPI Sample Caller Service](https://github.com/yewin-mm/restapi-sample-caller-service/tree/master). <br>
 You can learn many types of creating API endpoints in this project.
 1. Creating sample request APIs
 2. Creating sample response APIs
