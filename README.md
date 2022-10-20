@@ -107,6 +107,7 @@ Prerequisites can be found in here [Spring Boot Application Instruction](https:/
     * After that, you can see the folder which you import from file in your Postman.
 * Now, you can 'Test' this project by calling API from Postman.
     * Open your imported folder in postman and inside this folder, you will see total of 4 folder and many APIs, you can test that all APIs by clicking `Send` button one by one and see the response.
+    * For testing file upload and bulk file upload APIs, you need to add your sample files (eg. sample Excel file) in your Postman (add under form-data of Body tab in Postman).
     * You can also check in your IDE log for some print out values.
 
 * After that you can see the code and check the code which you don't know. You can learn it, and you can apply in your job or study fields.
