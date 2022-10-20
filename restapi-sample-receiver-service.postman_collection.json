@@ -1,0 +1,2341 @@
+{
+	"info": {
+		"_postman_id": "82342d7f-e1b8-41d4-94e2-dcaf4b39a885",
+		"name": "restapi-sample-receiver-service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9784437"
+	},
+	"item": [
+		{
+			"name": "response sample apis",
+			"item": [
+				{
+					"name": "responseSingleStringDemo api",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/receiver-service/api/responseSingleStringDemo",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"responseSingleStringDemo"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "responseSingleStringDemo api",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8081/receiver-service/api/responseSingleStringDemo",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"receiver-service",
+										"api",
+										"responseSingleStringDemo"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain;charset=UTF-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "6"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 03 Oct 2022 22:42:24 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "Hello!"
+						}
+					]
+				},
+				{
+					"name": "responseSingleObjectDemo api",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/receiver-service/api/responseSingleObjectDemo",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"responseSingleObjectDemo"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "localhost:8081/receiver-service/api/responseSingleObjectDemo",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8081/receiver-service/api/responseSingleObjectDemo",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"receiver-service",
+										"api",
+										"responseSingleObjectDemo"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 27 Sep 2022 20:44:39 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"totalCount\": 10\n}"
+						}
+					]
+				},
+				{
+					"name": "responseObjectDemo api",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/receiver-service/api/responseObjectDemo",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"responseObjectDemo"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "responseObjectDemo api",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8081/receiver-service/api/responseObjectDemo",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"receiver-service",
+										"api",
+										"responseObjectDemo"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 27 Sep 2022 20:45:10 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 1,\n    \"name\": \"Ye Win\",\n    \"address\": \"Yangon\",\n    \"phone\": \"+959123456789\",\n    \"className\": \"Room A\"\n}"
+						}
+					]
+				},
+				{
+					"name": "responseStringListDemo api",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/receiver-service/api/responseStringListDemo",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"responseStringListDemo"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "responseStringListDemo api",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8081/receiver-service/api/responseStringListDemo",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"receiver-service",
+										"api",
+										"responseStringListDemo"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 27 Sep 2022 20:45:48 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    \"Ye Win\",\n    \"Mr. Ye Win\"\n]"
+						}
+					]
+				},
+				{
+					"name": "responseObjectListDemo api",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/receiver-service/api/responseObjectListDemo",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"responseObjectListDemo"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "responseObjectListDemo api",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8081/receiver-service/api/responseObjectListDemo",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"receiver-service",
+										"api",
+										"responseObjectListDemo"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 27 Sep 2022 20:46:28 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": 1,\n        \"name\": \"Ye Win\",\n        \"address\": \"Yangon\",\n        \"phone\": \"+959123456789\",\n        \"className\": \"Room A\"\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Mg Mg\",\n        \"address\": \"Mandalay\",\n        \"phone\": \"+959123456789\",\n        \"className\": \"Room B\"\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Aung Aung\",\n        \"address\": \"NayPyiTaw\",\n        \"phone\": \"+959123456789\",\n        \"className\": \"Room C\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "responseCustomObjectListDemo api",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/receiver-service/api/responseCustomObjectListDemo",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"responseCustomObjectListDemo"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "responseCustomObjectListDemo api",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8081/receiver-service/api/responseCustomObjectListDemo",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"receiver-service",
+										"api",
+										"responseCustomObjectListDemo"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 27 Sep 2022 20:47:03 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"studentName\": \"Ye Win\",\n        \"className\": \"Room A\"\n    },\n    {\n        \"studentName\": \"Maung Maung\",\n        \"className\": \"Room B\"\n    },\n    {\n        \"studentName\": \"Aung Aung\",\n        \"className\": \"Room C\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "responseNestedObjectDemo api",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/receiver-service/api/responseNestedObjectDemo",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"responseNestedObjectDemo"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "responseNestedObjectDemo api",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8081/receiver-service/api/responseNestedObjectDemo",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"receiver-service",
+										"api",
+										"responseNestedObjectDemo"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 27 Sep 2022 20:47:56 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"timestamp\": \"2022-09-27T20:47:56.494Z\",\n    \"status\": {\n        \"status\": \"SUCCESS\",\n        \"message\": \"No Error\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "responseNestedObjectAndNestedObjectListDemo api",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/receiver-service/api/responseNestedObjectAndNestedObjectListDemo",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"responseNestedObjectAndNestedObjectListDemo"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "responseNestedObjectAndNestedObjectListDemo api",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8081/receiver-service/api/responseNestedObjectAndNestedObjectListDemo",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"receiver-service",
+										"api",
+										"responseNestedObjectAndNestedObjectListDemo"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 27 Sep 2022 20:48:40 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"timestamp\": \"2022-09-27T20:48:40.909Z\",\n    \"status\": {\n        \"status\": \"SUCCESS\",\n        \"message\": \"No Error\"\n    },\n    \"dataList\": [\n        {\n            \"id\": 1,\n            \"name\": \"Ye Win\",\n            \"address\": \"Yangon\",\n            \"phone\": \"+959123456789\",\n            \"className\": \"Room A\"\n        },\n        {\n            \"id\": 2,\n            \"name\": \"Mg Mg\",\n            \"address\": \"Mandalay\",\n            \"phone\": \"+959123456789\",\n            \"className\": \"Room B\"\n        },\n        {\n            \"id\": 3,\n            \"name\": \"Aung Aung\",\n            \"address\": \"NayPyiTaw\",\n            \"phone\": \"+959123456789\",\n            \"className\": \"Room C\"\n        }\n    ]\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "request sample apis",
+			"item": [
+				{
+					"name": "requestBodyObjectDemo api",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": 1,\n    \"name\": \"Ye Win\",\n    \"address\": \"Yangon\",\n    \"phone\": \"+959123456789\",\n    \"className\": \"Room A\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8081/receiver-service/api/requestBodyObjectDemo",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"requestBodyObjectDemo"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "requestBodyObjectDemo api",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"id\": 1,\n    \"name\": \"Ye Win\",\n    \"address\": \"Yangon\",\n    \"phone\": \"+959123456789\",\n    \"className\": \"Room A\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8081/receiver-service/api/requestBodyObjectDemo",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"receiver-service",
+										"api",
+										"requestBodyObjectDemo"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "Location",
+									"value": "http://localhost:8081/receiver-service/receiver-service/api/requestBodyObjectDemo"
+								},
+								{
+									"key": "Content-Length",
+									"value": "0"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 29 Sep 2022 12:27:55 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "requestBodyObjectListDemo api",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"dataList\": [\n        {\n            \"id\": 1,\n            \"name\": \"Ye Win\",\n            \"address\": \"Yangon\",\n            \"phone\": \"+959123456789\",\n            \"className\": \"Room A\"\n        },\n        {\n            \"id\": 2,\n            \"name\": \"Mg Mg\",\n            \"address\": \"Mandalay\",\n            \"phone\": \"+959123456789\",\n            \"className\": \"Room B\"\n        },\n        {\n            \"id\": 3,\n            \"name\": \"Aung Aung\",\n            \"address\": \"NayPyiTaw\",\n            \"phone\": \"+959123456789\",\n            \"className\": \"Room C\"\n        }\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8081/receiver-service/api/requestBodyObjectListDemo",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"requestBodyObjectListDemo"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "requestBodyObjectListDemo api",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"dataList\": [\n        {\n            \"id\": 1,\n            \"name\": \"Ye Win\",\n            \"address\": \"Yangon\",\n            \"phone\": \"+959123456789\",\n            \"className\": \"Room A\"\n        },\n        {\n            \"id\": 2,\n            \"name\": \"Mg Mg\",\n            \"address\": \"Mandalay\",\n            \"phone\": \"+959123456789\",\n            \"className\": \"Room B\"\n        },\n        {\n            \"id\": 3,\n            \"name\": \"Aung Aung\",\n            \"address\": \"NayPyiTaw\",\n            \"phone\": \"+959123456789\",\n            \"className\": \"Room C\"\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8081/receiver-service/api/requestBodyObjectListDemo",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"receiver-service",
+										"api",
+										"requestBodyObjectListDemo"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "0"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 29 Sep 2022 12:28:09 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "requestBodyStringListDemo api",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n   \"strListObject\": [\n    \"Ye Win\",\n    \"Mr. Ye Win\"\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8081/receiver-service/api/requestBodyStringListDemo",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"requestBodyStringListDemo"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "requestBodyStringListDemo api",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n   \"strListObject\": [\n    \"Ye Win\",\n    \"Mr. Ye Win\"\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8081/receiver-service/api/requestBodyStringListDemo",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"receiver-service",
+										"api",
+										"requestBodyStringListDemo"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "0"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 29 Sep 2022 12:28:19 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "requestPathVariableIntegerDemo api",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/receiver-service/api/requestPathVariableIntegerDemo/1",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"requestPathVariableIntegerDemo",
+								"1"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "requestPathVariableIntegerDemo api",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8081/receiver-service/api/requestPathVariableIntegerDemo/1",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"receiver-service",
+										"api",
+										"requestPathVariableIntegerDemo",
+										"1"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "0"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 29 Sep 2022 12:28:30 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "requestMultiPathVariablesDemo api",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/receiver-service/api/requestMultiPathVariablesDemo/java developer/Ye Win",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"requestMultiPathVariablesDemo",
+								"java developer",
+								"Ye Win"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "requestMultiPathVariablesDemo api",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8081/receiver-service/api/requestMultiPathVariablesDemo/java developer/Ye Win",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"receiver-service",
+										"api",
+										"requestMultiPathVariablesDemo",
+										"java developer",
+										"Ye Win"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "0"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 04 Oct 2022 13:18:17 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "requestParamStringDemo api",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/receiver-service/api/requestParamStringDemo?name=Ye Win",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"requestParamStringDemo"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Ye Win"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "requestParamStringDemo api",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8081/receiver-service/api/requestParamStringDemo?name=Ye Win",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"receiver-service",
+										"api",
+										"requestParamStringDemo"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "Ye Win"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "0"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 29 Sep 2022 12:28:40 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "requestMultiParamsDemo api",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/receiver-service/api/requestMultiParamsDemo?id=1&name=Mr.Ye Win",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"requestMultiParamsDemo"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1"
+								},
+								{
+									"key": "name",
+									"value": "Mr.Ye Win"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "requestMultiParamsDemo api",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8081/receiver-service/api/requestMultiParamsDemo?id=1&name=Mr.Ye Win",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"receiver-service",
+										"api",
+										"requestMultiParamsDemo"
+									],
+									"query": [
+										{
+											"key": "id",
+											"value": "1"
+										},
+										{
+											"key": "name",
+											"value": "Mr.Ye Win"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "0"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 04 Oct 2022 13:18:12 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "requestPathVariableAndParamsDemo API",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/receiver-service/api/requestPathVariableAndParamsDemo/Ye Win?actionType=Bill",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"requestPathVariableAndParamsDemo",
+								"Ye Win"
+							],
+							"query": [
+								{
+									"key": "actionType",
+									"value": "Bill"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "requestPathVariableAndParamsDemo API",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8081/receiver-service/api/requestPathVariableAndParamsDemo/Ye Win?actionType=Bill",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"receiver-service",
+										"api",
+										"requestPathVariableAndParamsDemo",
+										"Ye Win"
+									],
+									"query": [
+										{
+											"key": "actionType",
+											"value": "Bill"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "0"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 12 Oct 2022 22:33:44 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "requestFromHeaderDemo api",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "testye",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "yewin",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/receiver-service/api/requestFromHeaderDemo",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"requestFromHeaderDemo"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "requestFromHeaderDemo api",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzdXBlcmFkbWluQGdtYWlsLmNvbSIsInJvbGVzIjpbIkFETUlOIiwiTUFOQUdFUiIsIk5PUk1BTF9VU0VSIiwiU1VQRVJfQURNSU4iXSwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3NwcmluZy1zZWN1cml0eS1qd3QvbG9naW4iLCJleHAiOjE2NjMwMTczMDl9.qWnl1aA63p2XXchc6P4Kv2yS4ghVCnEdwB0-06-0qXU",
+										"description": "this is test jwt sample value, you can change it",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "localhost:8081/receiver-service/api/requestFromHeaderDemo",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"receiver-service",
+										"api",
+										"requestFromHeaderDemo"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "0"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 29 Sep 2022 12:28:42 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "requestFromHeaderAndRequestParamDemo api",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzdXBlcmFkbWluQGdtYWlsLmNvbSIsInJvbGVzIjpbIkFETUlOIiwiTUFOQUdFUiIsIk5PUk1BTF9VU0VSIiwiU1VQRVJfQURNSU4iXSwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3NwcmluZy1zZWN1cml0eS1qd3QvbG9naW4iLCJleHAiOjE2NjMwMTczMDl9.qWnl1aA63p2XXchc6P4Kv2yS4ghVCnEdwB0-06-0qXU",
+								"description": "this is test jwt sample value, you can change it",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "localhost:8081/receiver-service/api/requestFromHeaderAndRequestParamDemo?name=Ye Win",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"requestFromHeaderAndRequestParamDemo"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Ye Win"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "requestFromHeaderAndRequestParamDemo api",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzdXBlcmFkbWluQGdtYWlsLmNvbSIsInJvbGVzIjpbIkFETUlOIiwiTUFOQUdFUiIsIk5PUk1BTF9VU0VSIiwiU1VQRVJfQURNSU4iXSwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3NwcmluZy1zZWN1cml0eS1qd3QvbG9naW4iLCJleHAiOjE2NjMwMTczMDl9.qWnl1aA63p2XXchc6P4Kv2yS4ghVCnEdwB0-06-0qXU",
+										"description": "this is test jwt sample value, you can change it",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "localhost:8081/receiver-service/api/requestFromHeaderAndRequestParamDemo?name=Ye Win",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"receiver-service",
+										"api",
+										"requestFromHeaderAndRequestParamDemo"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "Ye Win"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "0"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 29 Sep 2022 12:28:45 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "requestFromHeaderAndRequestBodyDemo api",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzdXBlcmFkbWluQGdtYWlsLmNvbSIsInJvbGVzIjpbIkFETUlOIiwiTUFOQUdFUiIsIk5PUk1BTF9VU0VSIiwiU1VQRVJfQURNSU4iXSwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3NwcmluZy1zZWN1cml0eS1qd3QvbG9naW4iLCJleHAiOjE2NjMwMTczMDl9.qWnl1aA63p2XXchc6P4Kv2yS4ghVCnEdwB0-06-0qXU",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": 1,\n    \"name\": \"Ye Win\",\n    \"address\": \"Yangon\",\n    \"phone\": \"+959123456789\",\n    \"className\": \"Room A\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8081/receiver-service/api/requestFromHeaderAndRequestBodyDemo",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"requestFromHeaderAndRequestBodyDemo"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "requestFromHeaderAndRequestBodyDemo api",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzdXBlcmFkbWluQGdtYWlsLmNvbSIsInJvbGVzIjpbIkFETUlOIiwiTUFOQUdFUiIsIk5PUk1BTF9VU0VSIiwiU1VQRVJfQURNSU4iXSwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3NwcmluZy1zZWN1cml0eS1qd3QvbG9naW4iLCJleHAiOjE2NjMwMTczMDl9.qWnl1aA63p2XXchc6P4Kv2yS4ghVCnEdwB0-06-0qXU",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"id\": 1,\n    \"name\": \"Ye Win\",\n    \"address\": \"Yangon\",\n    \"phone\": \"+959123456789\",\n    \"className\": \"Room A\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8081/receiver-service/api/requestFromHeaderAndRequestBodyDemo",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"receiver-service",
+										"api",
+										"requestFromHeaderAndRequestBodyDemo"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "0"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 29 Sep 2022 12:28:48 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "requestFileUploadDemo api",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/Users/yephonethway/Downloads/test.xlsx"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:8081/receiver-service/api/requestFileUploadDemo",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"requestFileUploadDemo"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "requestFileUploadDemo api",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "file",
+											"type": "file",
+											"src": "/Users/yephonethway/Downloads/test.xlsx"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:8081/receiver-service/api/requestFileUploadDemo",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"receiver-service",
+										"api",
+										"requestFileUploadDemo"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "0"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 06 Oct 2022 22:25:37 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "requestFromHeaderAndBulkFileUploadDemo api",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzdXBlcmFkbWluQGdtYWlsLmNvbSIsInJvbGVzIjpbIkFETUlOIiwiTUFOQUdFUiIsIk5PUk1BTF9VU0VSIiwiU1VQRVJfQURNSU4iXSwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3NwcmluZy1zZWN1cml0eS1qd3QvbG9naW4iLCJleHAiOjE2NjMwMTczMDl9.qWnl1aA63p2XXchc6P4Kv2yS4ghVCnEdwB0-06-0qXU",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "files",
+									"type": "file",
+									"src": "/Users/yephonethway/Downloads/test.xlsx"
+								},
+								{
+									"key": "files",
+									"type": "file",
+									"src": "/Users/yephonethway/Downloads/test2.xlsx"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:8081/receiver-service/api/requestFromHeaderAndBulkFileUploadDemo",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"requestFromHeaderAndBulkFileUploadDemo"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "requestFromHeaderAndBulkFileUpload api",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzdXBlcmFkbWluQGdtYWlsLmNvbSIsInJvbGVzIjpbIkFETUlOIiwiTUFOQUdFUiIsIk5PUk1BTF9VU0VSIiwiU1VQRVJfQURNSU4iXSwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3NwcmluZy1zZWN1cml0eS1qd3QvbG9naW4iLCJleHAiOjE2NjMwMTczMDl9.qWnl1aA63p2XXchc6P4Kv2yS4ghVCnEdwB0-06-0qXU",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "files",
+											"type": "file",
+											"src": "/Users/yephonethway/Downloads/test.xlsx"
+										},
+										{
+											"key": "files",
+											"type": "file",
+											"src": "/Users/yephonethway/Downloads/test2.xlsx"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:8081/receiver-service/api/requestFromHeaderAndBulkFileUploadDemo",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"receiver-service",
+										"api",
+										"requestFromHeaderAndBulkFileUploadDemo"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "0"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 14 Oct 2022 23:13:19 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": null
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "request & response sample apis",
+			"item": [
+				{
+					"name": "requestPathVariableAndResponseObjectDemo api",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/receiver-service/api/requestPathVariableAndResponseObjectDemo/showdata",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"requestPathVariableAndResponseObjectDemo",
+								"showdata"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "requestPathVariableAndResponseObjectDemo api",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8081/receiver-service/api/requestPathVariableAndResponseObjectDemo/showdata",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"receiver-service",
+										"api",
+										"requestPathVariableAndResponseObjectDemo",
+										"showdata"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 15 Oct 2022 12:25:25 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 1,\n    \"name\": \"Ye Win\",\n    \"address\": \"Yangon\",\n    \"phone\": \"+959123456789\",\n    \"className\": \"Room A\"\n}"
+						}
+					]
+				},
+				{
+					"name": "requestParamStringAndResponseObjectListDemo api",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/receiver-service/api/requestParamStringAndResponseObjectListDemo?name=Ye Win&phone=+959123456789",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"requestParamStringAndResponseObjectListDemo"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Ye Win"
+								},
+								{
+									"key": "phone",
+									"value": "+959123456789"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "requestParamStringAndResponseObjectListDemo api",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8081/receiver-service/api/requestParamStringAndResponseObjectListDemo?name=Ye Win&phone=+959123456789",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"receiver-service",
+										"api",
+										"requestParamStringAndResponseObjectListDemo"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "Ye Win"
+										},
+										{
+											"key": "phone",
+											"value": "+959123456789"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 27 Sep 2022 21:07:18 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": 1,\n        \"name\": \"Ye Win\",\n        \"address\": \"Yangon\",\n        \"phone\": \"+959123456789\",\n        \"className\": \"Room A\"\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Mg Mg\",\n        \"address\": \"Mandalay\",\n        \"phone\": \"+959123456789\",\n        \"className\": \"Room B\"\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Aung Aung\",\n        \"address\": \"NayPyiTaw\",\n        \"phone\": \"+959123456789\",\n        \"className\": \"Room C\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "requestFromHeaderAndRequestBodyAndResponseNestedObjectDemo api",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzdXBlcmFkbWluQGdtYWlsLmNvbSIsInJvbGVzIjpbIkFETUlOIiwiTUFOQUdFUiIsIk5PUk1BTF9VU0VSIiwiU1VQRVJfQURNSU4iXSwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3NwcmluZy1zZWN1cml0eS1qd3QvbG9naW4iLCJleHAiOjE2NjMwMTczMDl9.qWnl1aA63p2XXchc6P4Kv2yS4ghVCnEdwB0-06-0qXU",
+								"description": "this is test jwt sample value, you can change it",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": 1,\n    \"name\": \"Ye Win\",\n    \"address\": \"Yangon\",\n    \"phone\": \"+959123456789\",\n    \"className\": \"Room A\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8081/receiver-service/api/requestFromHeaderAndRequestBodyAndResponseNestedObjectDemo",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"requestFromHeaderAndRequestBodyAndResponseNestedObjectDemo"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "requestFromHeaderAndRequestBodyAndResponseNestedObjectDemo api",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzdXBlcmFkbWluQGdtYWlsLmNvbSIsInJvbGVzIjpbIkFETUlOIiwiTUFOQUdFUiIsIk5PUk1BTF9VU0VSIiwiU1VQRVJfQURNSU4iXSwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3NwcmluZy1zZWN1cml0eS1qd3QvbG9naW4iLCJleHAiOjE2NjMwMTczMDl9.qWnl1aA63p2XXchc6P4Kv2yS4ghVCnEdwB0-06-0qXU",
+										"description": "this is test jwt sample value, you can change it",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"id\": 1,\n    \"name\": \"Ye Win\",\n    \"address\": \"Yangon\",\n    \"phone\": \"+959123456789\",\n    \"className\": \"Room A\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8081/receiver-service/api/requestFromHeaderAndRequestBodyAndResponseNestedObjectDemo",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"receiver-service",
+										"api",
+										"requestFromHeaderAndRequestBodyAndResponseNestedObjectDemo"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 27 Sep 2022 21:11:02 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"timestamp\": \"2022-09-27T21:11:02.493Z\",\n    \"status\": {\n        \"status\": \"SUCCESS\",\n        \"message\": \"No Error\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "requestFromHeaderAndRequestParamStringAndResponseNestedObjectListDemo api",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzdXBlcmFkbWluQGdtYWlsLmNvbSIsInJvbGVzIjpbIkFETUlOIiwiTUFOQUdFUiIsIk5PUk1BTF9VU0VSIiwiU1VQRVJfQURNSU4iXSwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3NwcmluZy1zZWN1cml0eS1qd3QvbG9naW4iLCJleHAiOjE2NjMwMTczMDl9.qWnl1aA63p2XXchc6P4Kv2yS4ghVCnEdwB0-06-0qXU",
+								"description": "this is test jwt sample value, you can change it",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "localhost:8081/receiver-service/api/requestFromHeaderAndRequestParamStringAndResponseNestedObjectListDemo?name=Ye Win&phone=+959123456789",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"requestFromHeaderAndRequestParamStringAndResponseNestedObjectListDemo"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Ye Win"
+								},
+								{
+									"key": "phone",
+									"value": "+959123456789"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "requestFromHeaderAndRequestParamStringAndResponseNestedObjectListDemo api",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzdXBlcmFkbWluQGdtYWlsLmNvbSIsInJvbGVzIjpbIkFETUlOIiwiTUFOQUdFUiIsIk5PUk1BTF9VU0VSIiwiU1VQRVJfQURNSU4iXSwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3NwcmluZy1zZWN1cml0eS1qd3QvbG9naW4iLCJleHAiOjE2NjMwMTczMDl9.qWnl1aA63p2XXchc6P4Kv2yS4ghVCnEdwB0-06-0qXU",
+										"description": "this is test jwt sample value, you can change it",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "localhost:8081/receiver-service/api/requestFromHeaderAndRequestParamStringAndResponseNestedObjectListDemo?name=Ye Win&phone=+959123456789",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"receiver-service",
+										"api",
+										"requestFromHeaderAndRequestParamStringAndResponseNestedObjectListDemo"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "Ye Win"
+										},
+										{
+											"key": "phone",
+											"value": "+959123456789"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 27 Sep 2022 21:13:04 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"timestamp\": \"2022-09-27T21:13:04.229Z\",\n    \"status\": {\n        \"status\": \"SUCCESS\",\n        \"message\": \"No Error\"\n    },\n    \"dataList\": [\n        {\n            \"id\": 1,\n            \"name\": \"Ye Win\",\n            \"address\": \"Yangon\",\n            \"phone\": \"+959123456789\",\n            \"className\": \"Room A\"\n        },\n        {\n            \"id\": 2,\n            \"name\": \"Mg Mg\",\n            \"address\": \"Mandalay\",\n            \"phone\": \"+959123456789\",\n            \"className\": \"Room B\"\n        },\n        {\n            \"id\": 3,\n            \"name\": \"Aung Aung\",\n            \"address\": \"NayPyiTaw\",\n            \"phone\": \"+959123456789\",\n            \"className\": \"Room C\"\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "requestFromHeaderAndPathVarAndParamsAndResponseNestedObjectListDemo API",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzdXBlcmFkbWluQGdtYWlsLmNvbSIsInJvbGVzIjpbIkFETUlOIiwiTUFOQUdFUiIsIk5PUk1BTF9VU0VSIiwiU1VQRVJfQURNSU4iXSwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3NwcmluZy1zZWN1cml0eS1qd3QvbG9naW4iLCJleHAiOjE2NjMwMTczMDl9.qWnl1aA63p2XXchc6P4Kv2yS4ghVCnEdwB0-06-0qXU",
+								"description": "this is test jwt sample value, you can change it",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "localhost:8081/receiver-service/api/requestFromHeaderAndPathVarAndParamsAndResponseNestedObjectListDemo/accountName/Ye Win/cardType/VISA?pageNo=1&pageSize=5&sortBy=Id&actionType=Bill",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"requestFromHeaderAndPathVarAndParamsAndResponseNestedObjectListDemo",
+								"accountName",
+								"Ye Win",
+								"cardType",
+								"VISA"
+							],
+							"query": [
+								{
+									"key": "pageNo",
+									"value": "1"
+								},
+								{
+									"key": "pageSize",
+									"value": "5"
+								},
+								{
+									"key": "sortBy",
+									"value": "Id"
+								},
+								{
+									"key": "actionType",
+									"value": "Bill"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "requestFromHeaderAndPathVarAndParamsAndResponseNestedObjectListDemo API",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzdXBlcmFkbWluQGdtYWlsLmNvbSIsInJvbGVzIjpbIkFETUlOIiwiTUFOQUdFUiIsIk5PUk1BTF9VU0VSIiwiU1VQRVJfQURNSU4iXSwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3NwcmluZy1zZWN1cml0eS1qd3QvbG9naW4iLCJleHAiOjE2NjMwMTczMDl9.qWnl1aA63p2XXchc6P4Kv2yS4ghVCnEdwB0-06-0qXU",
+										"description": "this is test jwt sample value, you can change it",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "localhost:8081/receiver-service/api/requestFromHeaderAndPathVarAndParamsAndResponseNestedObjectListDemo/accountName/Ye Win/cardType/VISA?pageNo=1&pageSize=5&sortBy=Id&actionType=Bill",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"receiver-service",
+										"api",
+										"requestFromHeaderAndPathVarAndParamsAndResponseNestedObjectListDemo",
+										"accountName",
+										"Ye Win",
+										"cardType",
+										"VISA"
+									],
+									"query": [
+										{
+											"key": "pageNo",
+											"value": "1"
+										},
+										{
+											"key": "pageSize",
+											"value": "5"
+										},
+										{
+											"key": "sortBy",
+											"value": "Id"
+										},
+										{
+											"key": "actionType",
+											"value": "Bill"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 13 Oct 2022 20:47:16 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"timestamp\": \"2022-10-13T20:47:16.428Z\",\n    \"status\": {\n        \"status\": \"SUCCESS\",\n        \"message\": \"No Error\"\n    },\n    \"dataList\": [\n        {\n            \"id\": 1,\n            \"accountName\": \"Ye Win\",\n            \"cardType\": \"VISA\",\n            \"serviceType\": \"Bill\",\n            \"phone\": \"+959123456789\",\n            \"address\": \"Yangon\",\n            \"transactionDate\": \"02/09/2022 10:03:23\",\n            \"balance\": \"1000\"\n        },\n        {\n            \"id\": 2,\n            \"accountName\": \"Ye Win\",\n            \"cardType\": \"VISA\",\n            \"serviceType\": \"Bill\",\n            \"phone\": \"+959123456789\",\n            \"address\": \"Yangon\",\n            \"transactionDate\": \"10/09/2022 15:30:09\",\n            \"balance\": \"5000\"\n        },\n        {\n            \"id\": 3,\n            \"accountName\": \"Ye Win\",\n            \"cardType\": \"VISA\",\n            \"serviceType\": \"Bill\",\n            \"phone\": \"+959123456789\",\n            \"address\": \"Yangon\",\n            \"transactionDate\": \"19/09/2022 13:20:56\",\n            \"balance\": \"2000\"\n        }\n    ]\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "error response sample apis",
+			"item": [
+				{
+					"name": "localhost:8081/receiver-service/api/errorBadRequestResponseDemo?name=Ye Win&phone=+959123456789",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/receiver-service/api/errorBadRequestResponseDemo?name=Ye Win&phone=+959123456789",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"errorBadRequestResponseDemo"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Ye Win"
+								},
+								{
+									"key": "phone",
+									"value": "+959123456789"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "localhost:8081/receiver-service/api/errorBadRequestResponseDemo?name=Ye Win&phone=+959123456789",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8081/receiver-service/api/errorBadRequestResponseDemo?name=Ye Win&phone=+959123456789",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"receiver-service",
+										"api",
+										"errorBadRequestResponseDemo"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "Ye Win"
+										},
+										{
+											"key": "phone",
+											"value": "+959123456789"
+										}
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 29 Sep 2022 12:27:21 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"timestamp\": \"2022-09-29T12:27:21.570Z\",\n    \"status\": {\n        \"status\": \"FAIL\",\n        \"message\": \"Input is something wrong\"\n    },\n    \"dataList\": null\n}"
+						}
+					]
+				},
+				{
+					"name": "localhost:8081/receiver-service/api/errorNotFoundResponseDemo/1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/receiver-service/api/errorNotFoundResponseDemo/1",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"errorNotFoundResponseDemo",
+								"1"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "localhost:8081/receiver-service/api/errorNotFoundResponseDemo/1",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8081/receiver-service/api/errorNotFoundResponseDemo/1",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"receiver-service",
+										"api",
+										"errorNotFoundResponseDemo",
+										"1"
+									]
+								}
+							},
+							"status": "Not Found",
+							"code": 404,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "0"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 29 Sep 2022 12:27:30 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "localhost:8081/receiver-service/api/errorInternalServerErrorResponseDemo",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": 1,\n    \"name\": \"Ye Win\",\n    \"address\": \"Yangon\",\n    \"phone\": \"+959123456789\",\n    \"className\": \"Room A\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8081/receiver-service/api/errorInternalServerErrorResponseDemo",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"errorInternalServerErrorResponseDemo"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "localhost:8081/receiver-service/api/errorInternalServerErrorResponseDemo",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"id\": 1,\n    \"name\": \"Ye Win\",\n    \"address\": \"Yangon\",\n    \"phone\": \"+959123456789\",\n    \"className\": \"Room A\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8081/receiver-service/api/errorInternalServerErrorResponseDemo",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"receiver-service",
+										"api",
+										"errorInternalServerErrorResponseDemo"
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "Content-Length",
+									"value": "0"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 29 Sep 2022 12:27:40 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": null
+						}
+					]
+				}
+			]
+		}
+	]
+}
